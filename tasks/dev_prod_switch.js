@@ -77,7 +77,6 @@ module.exports = function (grunt) {
                 case 'prod': env = 'Production'; break;
                 case 'dev': env = 'Development'; break;
                 case 'staging': env = 'Staging'; break;
-                default: env = 'Test';
             }
             grunt.log.writeln('Data in file "' + f.dest + '" switched to "' + env + '".');
 
