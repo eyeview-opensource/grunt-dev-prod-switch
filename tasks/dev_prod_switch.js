@@ -72,6 +72,7 @@ module.exports = function (grunt) {
                 return result;
             });
 
+            var env = 'Test';
             switch(options.environment){
                 case 'prod': env = 'Production'; break;
                 case 'dev': env = 'Development'; break;
